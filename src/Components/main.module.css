@@ -1,0 +1,19 @@
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* Devices upto 800px*/
+
+@media only screen and (max-width: 800px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
